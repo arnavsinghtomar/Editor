@@ -1,0 +1,25 @@
+[project]
+name = "languagetool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiofiles>=25.1.0",
+    "en-core-web-sm",
+    "fastapi>=0.127.0",
+    "httpx>=0.28.1",
+    "language-tool-python>=3.2.0",
+    "openai>=2.14.0",
+    "pydantic>=2.12.5",
+    "pytest>=9.0.2",
+    "python-dotenv>=1.2.1",
+    "spacy>=3.8.11",
+    "streamlit>=1.52.2",
+    "symspellpy>=6.9.0",
+    "textstat>=0.7.12",
+    "uvicorn>=0.40.0",
+]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }

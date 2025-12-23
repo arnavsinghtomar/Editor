@@ -1,0 +1,40 @@
+{
+    "errors": [
+        {
+            "error_type": "spelling",
+            "message": "Possible spelling error: 'Helo'",
+            "start_index": 0,
+            "end_index": 4,
+            "suggestions": [
+                "Hello",
+                "Help",
+                "Hero"
+            ],
+            "confidence": 0.9,
+            "source": "symspell"
+        },
+        {
+            "error_type": "agreement",
+            "message": "Determiner agreement error: 'THESE' (Plur) vs 'apple' (Sing)",
+            "start_index": 12,
+            "end_index": 23,
+            "suggestions": [],
+            "confidence": 0.7,
+            "source": "spacy_rule"
+        },
+        {
+            "error_type": "style",
+            "message": "Passive voice detected. Consider active voice.",
+            "start_index": 45,
+            "end_index": 55,
+            "suggestions": [],
+            "confidence": 0.6,
+            "source": "style_heuristic_passive"
+        }
+    ],
+    "readability": {
+        "flesch_reading_ease": 80.5,
+        "grade_level": "6th Grade"
+    },
+    "llm_used": false
+}
